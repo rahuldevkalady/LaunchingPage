@@ -99,8 +99,15 @@ path,circle,polygon,rect{
   fill: #9f1313;
 }
 
-@media (max-width: 600px) {
+.dis {
+  width: 600px; 
+  margin-bottom: 30px;
+}
 
+@media (max-width: 400px) {
+
+
+  
   .a1 {
     width: 200px;
     
@@ -111,5 +118,39 @@ path,circle,polygon,rect{
     width: 200px;
     z-index: -1; /* Move a2 behind a1 */
   }
+  h1 {
+    word-wrap: break-word;
+    font-size:50px;
+  }
+
+  p {
+    
+    font-size:xx-small;
+    word-wrap: break-word;
+    
+  }
+
+  .layout {
+    /* border:5px solid rgb(162, 255, 0); */
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  img {
+    height : 200px;
+    width: auto;
+    
+  }
+  .l1 {
+    height: 50px;
+    width: auto;
+    
+  }
+  .dis {
+    width: 200px; 
+    margin-bottom: 30px;
+  }
+
 }
 
